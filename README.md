@@ -9,6 +9,12 @@
 - Then simple do `npm i` in shell.
 - And lastly `npm start` ndyour bot should be running! 
 
+### **Install Node V16 In Replit**
+- Paste the following command in Shell.
+`npm init -y && npm i --save-dev node@16 && npm config set prefix=$(pwd)/node_modules/node && export PATH=$(pwd)/node_modules/node/bin:$PATH`
+- Wait for sometime and your repl will be upgraded to V16
+
+
 ### Requirements
  - Node `16.x+`
  - `discord.js` npm
